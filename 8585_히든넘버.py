@@ -5,7 +5,6 @@ ck = False
 temp_tot = ''
 for i in temp : 
     if(not(i>='A')): # 현재값이 숫자라면 
-        print(i)
         if(ck):  # 이전값이 숫자인 경우  
            temp_tot += i 
         else : 
